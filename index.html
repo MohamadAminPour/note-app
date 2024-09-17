@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="title">
+        <h1>Note App</h1>
+    </div>
+
+    <div class="container">
+        <div class="container_input">
+            <input type="text" placeholder="یاد داشتی وارد کنید">
+        </div>
+        <div class="container_paletColor">
+            <div class="container_palet" style="background-color: white;"></div>
+            <div class="container_palet" style="background-color: red;"></div>
+            <div class="container_palet" style="background-color: blue;"></div>
+            <div class="container_palet" style="background-color: green;"></div>
+            <div class="container_palet" style="background-color: yellow;"></div>
+            <div class="container_palet" style="background-color: orange;"></div>
+            <div class="container_palet" style="background-color: gray;"></div>
+            <div class="container_palet" style="background-color: pink;"></div>
+            <div class="container_palet" style="background-color: fuchsia;"></div>
+            <div id="container_random_color">random</div>
+        </div>
+        <div class="container_addRemove">
+
+            <svg class="add" width="512" height="512" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <g fill="currentColor">
+                    <path
+                        d="M12 6a1 1 0 0 1 1 1v4h4a1 1 0 1 1 0 2h-4v4a1 1 0 1 1-2 0v-4H7a1 1 0 1 1 0-2h4V7a1 1 0 0 1 1-1Z" />
+                    <path fill-rule="evenodd"
+                        d="M5 22a3 3 0 0 1-3-3V5a3 3 0 0 1 3-3h14a3 3 0 0 1 3 3v14a3 3 0 0 1-3 3H5Zm-1-3a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1H5a1 1 0 0 0-1 1v14Z"
+                        clip-rule="evenodd" />
+                </g>
+            </svg>
+
+            <svg class="clearInput" width="512" height="512" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+                <g fill="none" stroke="currentColor">
+                    <path stroke-linejoin="round" stroke-width="4.302"
+                        d="M44.782 24.17L31.918 7.1L14.135 20.5L27.5 37l3.356-2.336L44.782 24.17Z" />
+                    <path stroke-linejoin="round" stroke-width="4.302"
+                        d="m27.5 37l-3.839 3.075l-10.563-.001l-2.6-3.45l-6.433-8.536L14.5 20.225" />
+                    <path stroke-linecap="round" stroke-width="4.5" d="M13.206 40.072h31.36" />
+                </g>
+            </svg>
+
+        </div>
+    </div>
+
+    <div class="noteList">
+       
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.title {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.title h1 {
+    font-size: 40px;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container .container_input {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.container .container_input input {
+    text-align: right;
+    padding: 0 10px;
+    width: 400px;
+    height: 40px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    background-color: rgba(0, 0, 0, .1);
+}
+
+.container .container_paletColor {
+    width: 106%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .container_paletColor div {
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    margin: 0 5px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+#container_random_color {
+    width: 80px;
+    height: 23px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container_addRemove {
+    width: 100%;
+    height: 50px;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container_addRemove button {
+    width: 100px;
+    height: 30px;
+    border: none;
+    outline: none;
+    margin: 0 10px;
+    border-radius: 4px;
+}
+
+.container_addRemove svg {
+    width: 30px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.container_addRemove .add {
+    color: green;
+}
+
+.container_addRemove .clearInput {
+    color: red;
+}
+
+/****notes***/
+
+.noteList {
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.noteList .note {
+    width: 300px;
+   padding: 20px 0;
+    background-color: rgb(255, 255, 255);
+    border: 1.5px solid rgb(179, 179, 179);
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.noteList .note p {
+    background-color: red;
+    font-size: 18px;
+    text-align: justify;
+}
